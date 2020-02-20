@@ -1,5 +1,5 @@
 {
-    "name": "devgroup/yii2-deferred-tasks",
+    "name": "xandrkat/yii2-deferred-tasks",
     "description": "Allows running tasks and actions in background(triggered by cron) in yii2 framework.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","dotplant","background"],
