@@ -4,9 +4,9 @@ namespace DevGroup\DeferredTasks\handlers;
 use DevGroup\DeferredTasks\events\DeferredQueueCompleteEvent;
 use DevGroup\DeferredTasks\helpers\DeferredHelper;
 use DevGroup\DeferredTasks\models\DeferredQueue;
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class QueueCompleteEventHandler extends Object
+class QueueCompleteEventHandler extends BaseObject
 {
 
     public static function handleEvent(DeferredQueueCompleteEvent $event)
